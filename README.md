@@ -1,16 +1,66 @@
-# React + Vite
+# 🎙️ VoiceNotes AI  
+#### Professional Real-Time Speech-to-Text Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2-blue)
+![Vite](https://img.shields.io/badge/Vite-Build-green)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-38B2AC?logo=tailwind-css)
+![Web Speech API](https://img.shields.io/badge/Web%20Speech%20API-Enabled-orange)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Overview
 
-## React Compiler
+**VoiceNotes AI** is a modern speech recognition web application that converts spoken language to text in **real time** using the native **Web Speech API** — no server required!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It provides a smooth and accessible experience for:
+• Meeting notes  
+• Study and brainstorming  
+• Accessibility support  
 
-## Expanding the ESLint configuration
+A clean UI crafted with **React + TailwindCSS** ensures responsiveness across devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|--------|-------------|
+| 🎤 Real-Time Transcription | Instant speech recognition using asynchronous event streaming |
+| 💾 Auto Save | Notes are persisted using localStorage |
+| 🔊 Text-to-Speech | Converts stored notes back into speech |
+| 📎 Export Notes | Download notes as `.txt` files |
+| 📱 Responsive UI | Smooth experience across all screen sizes |
+| 📋 Copy to Clipboard | Quickly share or transfer notes |
+| 🧩 Smart Event Handling | Handles recognition with error recovery |
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|--------|------|
+| Frontend | React.js (Vite) |
+| Styling | Tailwind CSS |
+| Speech Processing | Web Speech API (SpeechRecognition + SpeechSynthesis) |
+| Icons | Lucide React |
+| State | React Hooks (`useState`, `useEffect`, `useRef`) |
+
+---
+
+## 📸 Screenshots
+
+> 📌 Add images in your repo under `/assets/screenshots/` and replace the links below
+
+| Recording Screen | Notes Screen |
+|-----------------|--------------|
+| ![Recording UI](assets/screenshots/recording.png) | ![Notes UI](assets/screenshots/notes.png) |
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/speech-to-text-app.git
+cd speech-to-text-app
